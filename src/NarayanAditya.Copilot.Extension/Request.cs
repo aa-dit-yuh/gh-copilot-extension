@@ -1,5 +1,5 @@
 public record Request
 {
-    public bool Stream { get; init; }
-    public List<Message> Messages { get; init; } = [];
+    public bool Stream { get; set; }
+    public List<Message> Messages { get; set; } = [];
 }
